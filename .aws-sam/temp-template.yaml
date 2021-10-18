@@ -1,0 +1,9 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 300
+      MemorySize: 128
+      Handler: com.aniruddha.project.SampleLambdaFunction
+      CodeUri: /Users/anishrik/Personal_Projects/Java_ExecutorService
+      Runtime: java8.al2
